@@ -1,0 +1,522 @@
+:root {
+    --color1: #FF511A;
+    --color2: #43BA7F;
+    --color3: #212741;
+    --color4: #eee;
+}
+
+
+*{
+    box-shadow: border-box;
+    margin: 0;
+}
+
+body{
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    position: relative;
+    color: var(--color3);
+}
+
+
+.container {
+    width: auto;
+    margin: 0 auto;
+} 
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+button{
+    border-style: none;
+    padding: 0.75rem 1.25rem;
+    color: #fff;
+    font-weight: 550;
+    border-radius: 8px;
+}
+
+.shadow-box {
+    box-shadow: 0 0 10px  #d2d2d2;
+}
+
+.buttons button {
+    padding: 0.875rem 2.1875rem;
+}
+
+.green-button{
+    background-color: var(--color2);
+}
+
+.green-button:hover {
+    background-color: #36a06d;
+}
+
+.orange-button {
+    background-color: var(--color1);
+    padding: 0.875rem 2.5rem;
+}
+
+.orange-button:hover {
+    background-color: #e03c00;
+}
+
+p{
+    line-height: 26px;
+}
+
+.orange-text {
+    color: var(--color1);
+}
+
+.green-text {
+    color: var(--color2);
+}
+
+
+.bored-padding {
+    padding: 0 12px;
+}
+
+
+/*------------------------ Header-nav-section ------------------------*/
+
+.header-nav{
+    background-image: url("../11-yan/images/slide-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-position: center;
+}
+
+.your-freedom-section{
+    background-image: url("../11-yan/images/calculator-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--color3);
+    padding: 10px 0x;
+}
+
+.nav img{
+    width: 180px;
+    height: auto;
+}
+
+.nav i{
+    display: none;
+    color: #fff;
+    font-size: 26px;
+}
+
+.nav-items {
+    padding: 0 12px;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.nav-items li a{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.nav-items>li:first-child a {
+    color: var(--color1);
+}
+
+.nav-items li:hover a{
+    color: var(--color1);
+}
+
+.main-header{
+    color: #fff;
+    padding-top: 100px;
+    width: 55%;
+}
+
+.main-header h2{
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+}
+
+.main-header .empty-box {
+    width: 80px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.main-header p{
+    padding: 2.5rem 0;
+}
+
+.main-header .buttons a{
+    padding-right: 0.625rem;
+}
+
+/*------------------------ marketing-section ------------------------*/
+
+.marketing{
+    padding: 150px 0;
+}
+
+.marketing .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 30px;
+}
+
+.marketing .container > div {
+    padding: 0 12px;
+}
+
+.box {
+    display: flex;
+    column-gap: 20px;
+    padding: 40px 30px;
+}
+
+.box .box-icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.box div i{
+    font-size: 65px;
+    color: var(--color2);
+    transition: padding-top 0.8s;
+}
+
+.box:hover i{
+    padding-top: 20px;
+}
+
+
+.box .box-template p{
+    padding-top: 15px;
+} 
+
+/*------------------------ main-nav-section ------------------------*/
+
+
+.main-nav{
+    background-image: url("../11-yan/images/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+    background-position: center;
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.main-nav .div-left h4 {
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.main-nav .buttons a{
+    padding-left: 10px;
+}
+
+/*------------------------ About-us-section ------------------------*/
+
+.about-section {
+    padding: 100px 0;
+}
+
+.top-texts{
+    padding-bottom: 70px;
+}
+
+.about-section .top-texts {
+    text-align: center;
+}
+
+.top-texts h6{
+    color: var(--color1);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.top-texts h4{
+    font-size: 35px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.main-about-section {
+    display: grid;
+    grid-template-columns: 66.6% 33.3%;
+}
+
+.div-left{
+    padding: 0 12px;
+}
+
+.div-left>div{
+    display: flex;
+    column-gap: 25px;
+    padding-bottom: 30px;
+}
+
+.li-item {
+    padding: 7px 20px;
+}
+
+.li-item button {
+    color: #000;
+    font-weight: 550;
+    border-style: none;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.li-item:nth-child(1) button{
+    color: var(--color1);
+}
+
+.li-item:hover button{
+    color: var(--color1);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+td, th {
+    border-bottom: 1px solid var(--color4);
+    padding: 25px;
+    padding-left: 0;
+}
+
+th{
+    text-align: left;
+}
+
+tr td:nth-child(1){
+    color: var(--color2);
+    font-weight: 550;
+}
+
+.div-right h4{
+    line-height: 1.5;
+    padding-bottom: 40px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.div-right{
+    padding-right: 12px;
+    padding-left: 72px;
+}
+
+.div-right p{
+    padding-bottom: 50px;
+}
+
+/*------------------------ Your-freedom-section ------------------------*/
+
+.your-freedom-section{
+    background-image: url("../11-yan/images/calculator-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+    background-position: center;
+}
+
+.your-freedom-section .container {
+    display: flex;
+}
+
+.your-freedom-section .container > div{
+    padding: 0 12px;
+}
+
+.div-img div{
+   position: absolute;
+   bottom: 0;
+}
+
+.div-img{
+    flex: 58%;
+}
+
+.div-img img{
+    width: 100%;
+}
+
+.freedom-forms{
+    flex: 42%;
+}
+
+.freedom-forms .top-texts h4{
+    color: #fff;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+form>div:first-child{
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+.form-flex >  div{
+    flex: 50%;
+}
+
+label {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+input, select {
+    border-style: none;
+    padding: 12px 10px;
+    background-color: #5f6a7c;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*------------------------ Opinion-section ------------------------*/
+
+.opinion-section{
+    padding: 100px 0;
+}
+
+.opinion-section .top-texts {
+    text-align: center;
+}
+
+.opinion img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.opinion-section .container {
+    display: flex;
+    justify-content: center;
+}
+
+.opinion-section .container>div {
+    width: 926px;
+}
+
+.opinion{
+    padding: 35px 320px 35px 50px;
+    position: relative;
+    border-radius: 7px;
+}
+
+.opinion i{
+    color: #fff;
+    background-color: var(--color2);
+    padding: 15px 18px;
+    font-size: 44px;
+    border-radius: 7px;
+}
+
+.opinion p{
+    font-style: italic;
+    padding: 30px 0;
+    font-size: 16px;
+}
+
+.opinion h4{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.opinion span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/*------------------------ Partners-section ------------------------*/
+
+.partners-section{
+    background-color: var(--color3);
+    padding: 80px 0;
+}
+
+.partners-section .container{
+    display: flex;
+}
+
+.partners-section .container>div {
+    width: 16.6%;
+    padding: 0 12px;
+}
+
+.partners-section .container img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+/*------------------------ Footer-section ------------------------*/
+
+.footer{
+    background-color: #181d30;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer a{
+    color: var(--color1);
+}
+

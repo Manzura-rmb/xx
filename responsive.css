@@ -1,0 +1,244 @@
+
+
+:root {
+    --color1: #FF511A;
+    --color2: #43BA7F;
+    --color3: #212741;
+}
+
+@media only screen and (max-width: 576px){
+     .container{
+        max-width: 100%;
+    }   
+    
+    .div-left>div{
+        flex-wrap: wrap;
+    }
+
+    td, th {
+        padding: 15px 0;
+    }
+
+    table{
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width: 576px){
+      .container{
+        width: 540px;
+    }  
+}
+@media only screen and (min-width: 767px){
+    .container{
+        width: 720px;
+    } 
+}
+
+@media only screen and (min-width: 992px){
+    .container{
+        width: 960px;
+    } 
+
+
+}
+
+@media only screen and (max-width: 767px){
+    /*------------------------ Header-nav-section ------------------------*/
+    .nav ul{
+        display: none;
+    }
+
+    .nav .container{
+        position: relative;
+    }
+
+    .nav i{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        z-index: 11;
+    }
+
+   .main-header{
+        text-align: center;
+    }
+
+    .main-header p{
+        display: none;
+    }
+
+    .main-header .buttons {
+        padding-top: 40px;
+    }
+
+    .empty-box{
+        display: inline-block;
+    } 
+
+    /*------------------------ main-nav-section ------------------------*/
+    .main-nav .buttons{
+        padding-top: 40px;
+    } 
+
+    /*------------------------ Opinion-section ------------------------*/
+
+    .opinion-section .container>div {
+        width: 516px;
+    }
+
+    .opinion img{
+        max-width: 100px;
+        height: auto;
+        top: 35px;
+        right: 50px;
+    }
+
+    .opinion{
+        padding: 35px 50px;
+    }
+
+     .opinion p{
+        padding-top: 60px;
+    }  
+
+    /*------------------------ Partners-section ------------------------*/
+
+    .partners-section .container {
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+
+    .partners-section .container>div {
+        width: 90%;
+        padding: 0 12px;
+    } 
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+    /*------------------------ Header-nav-section ------------------------*/
+     .nav {
+        padding: 20px 0 10px;
+    }
+
+    .nav ul li:last-child{
+        display: none;
+    }
+
+    
+
+    .main-header{
+        padding-top: 120px;
+        width: 100%;
+    } 
+
+    /*------------------------ marketing-section ------------------------*/
+        .marketing .container{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    /*------------------------ main-nav-section ------------------------*/
+    .main-nav .container{
+        flex-direction: column;
+        text-align: center;
+    } 
+
+    /*------------------------ About-us-section ------------------------*/
+     .main-about-section{
+        grid-template-columns: 100%;
+    }
+
+    .div-right{
+        padding: 60px 12px;
+    } 
+
+    /*------------------------ Your-freedom-section ------------------------*/
+    .div-img{
+        display: none;
+    }
+
+    /*------------------------ About-us-section ------------------------*/
+
+    .li-item{
+        padding: 5px 10px;
+    }
+
+    .li-item>div{
+        column-gap: 15px;
+    }
+
+    .li-item button{
+        font-size: 15px;
+    }
+
+    form>div:first-child{
+        flex-direction: column;
+        row-gap: 30px;
+    }  
+
+    /*------------------------ Opinion-section ------------------------*/
+    .opinion-section .container>div{
+        width: 696px;
+    }
+
+    .opinion img{
+        width: 200px;
+        height: auto;
+        right: 50px;
+        top: 35px;
+    } 
+
+
+    /*------------------------ Partners-section ------------------------*/
+     .partners-section .container>div{
+       width: 30%;
+    }
+
+    .partners-section .container {
+        flex-wrap: wrap;
+    }  
+}
+
+
+@media only screen and (max-width: 1200px){
+
+     /* .container{
+        width: 960px;
+    }  */
+    /*------------------------ Header-nav-section ------------------------*/
+     .nav ul li{
+        padding-left: 20px;
+    } 
+
+    .nav{
+        padding: 18px 0;
+    }
+
+    .nav img{
+        width: 250px;
+    }
+
+    /*------------------------ Opinion-section ------------------------*/
+    .opinion-section .container>div{
+        width: 776px;
+    } 
+
+    /*------------------------ Partners-section ------------------------*/
+    .partners-section .container>div {
+        width: 16.6%;
+        padding: 0 12px;
+    }  
+}
+
+@media only screen and (min-width: 1200px) {
+    .container{
+     width: 1200px;
+    }  
+}
+
